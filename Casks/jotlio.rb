@@ -1,9 +1,9 @@
 # Template of Casks/jotlio.rb in the public tap (docs/adr/0016-auto-update.md 3). The release
-# workflow fills 0.2.9, fafb96395536f48f3f8e22033e3a5b6f20cf5a60354f099bcb1ed9cd733cc34a and EarthLinkNetwork/jotlio-releases (apps/mac/scripts/release/update-cask.sh) and
+# workflow fills 0.3.0, d61118845ccadf619a6ca0382cc0e74c504044ea35b465a7882cda5c94b0a01f and EarthLinkNetwork/jotlio-releases (apps/mac/scripts/release/update-cask.sh) and
 # commits it to the tap before the release (and its appcast) is published.
 cask "jotlio" do
-  version "0.2.9"
-  sha256 "fafb96395536f48f3f8e22033e3a5b6f20cf5a60354f099bcb1ed9cd733cc34a"
+  version "0.3.0"
+  sha256 "d61118845ccadf619a6ca0382cc0e74c504044ea35b465a7882cda5c94b0a01f"
 
   url "https://github.com/EarthLinkNetwork/jotlio-releases/releases/download/jotlio-mac-v#{version}/Jotlio-#{version}.dmg"
   name "Jotlio"
